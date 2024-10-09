@@ -24,7 +24,7 @@ const Navlinks = () => {
             Home
         </NavLink>
 
-        <NavLink to="/"
+        <NavLink to="/logworkout"
                 className={({isActive}) => 
                     `transition-all duration-200 ease-in font-medium ${
                         isActive
