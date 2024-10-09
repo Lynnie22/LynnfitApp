@@ -36,7 +36,7 @@ const Navlinks = () => {
             Log Workout
         </NavLink>
 
-        <NavLink to="/"
+        <NavLink to="/history"
                 className={({isActive}) => 
                     `transition-all duration-200 ease-in font-medium ${
                         isActive

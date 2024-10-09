@@ -2,6 +2,7 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Layout from "./components/pages/Layout";
 import Home from "./components/pages/Home";
 import Logworkout from "./components/pages/Logworkout";
+import WorkoutHistory from "./components/pages/WorkoutHistory";
 
 function App() {
   const router = createBrowserRouter([
@@ -17,6 +18,10 @@ function App() {
         {
           path: "/logworkout",
           element:<Logworkout/>,
+        },
+        {
+          path: "/history",
+          element:<WorkoutHistory/>,
         },
       ]
     },
