@@ -48,7 +48,7 @@ const Navlinks = () => {
             Workout History
         </NavLink>
         
-        <NavLink to="/"
+        <NavLink to="/searching"
                 className={({isActive}) => 
                     `transition-all duration-200 ease-in font-medium ${
                         isActive
@@ -57,7 +57,7 @@ const Navlinks = () => {
                     }`
                 }
         >
-            Progress
+            Search
         </NavLink>
       </nav>
 
