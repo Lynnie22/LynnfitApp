@@ -88,7 +88,7 @@ const Navlinks = () => {
           className={({ isActive }) =>
             `transition-all duration-200 ease-in font-medium ${
               isActive
-                ? "text-pink font-bold ease-in scale-110"
+                ? "text-darkpink font-bold ease-in scale-110"
                 : "text-black"
             }`
           }
@@ -102,7 +102,7 @@ const Navlinks = () => {
           className={({ isActive }) =>
             `transition-all duration-200 ease-in font-medium ${
               isActive
-                ? "text-pink font-bold ease-in scale-110"
+                ? "text-darkpink font-bold ease-in scale-110"
                 : "text-black"
             }`
           }
@@ -116,7 +116,7 @@ const Navlinks = () => {
           className={({ isActive }) =>
             `transition-all duration-200 ease-in font-medium ${
               isActive
-                ? "text-pink font-bold ease-in scale-110"
+                ? "text-darkpink font-bold ease-in scale-110"
                 : "text-black"
             }`
           }
@@ -130,7 +130,7 @@ const Navlinks = () => {
           className={({ isActive }) =>
             `transition-all duration-200 ease-in font-medium ${
               isActive
-                ? "text-pink font-bold ease-in scale-110"
+                ? "text-darkpink font-bold ease-in scale-110"
                 : "text-black"
             }`
           }

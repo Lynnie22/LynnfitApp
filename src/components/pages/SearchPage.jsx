@@ -18,6 +18,7 @@ const SearchPage = () => {
   return (
     <div className="flex h-screen justify-center items-center">
       <div className="w-full h-full">
+        <h2 className="text-lg lg:text-2xl font-semibold mt-6 mb-3 text-center">Not sure where to start? Search any exercise to get in-depth descriptions and tips for your next workout.</h2>
         <SearchBar setResults={setResults}/>
         <SearchResults results={results} onSelectExercise={handleSelectExercises}/>
 

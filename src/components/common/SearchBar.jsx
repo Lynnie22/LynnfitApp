@@ -32,9 +32,9 @@ const SearchBar = ({setResults}) => {
       <input 
       type="text"
       value={input}
-      placeholder="Search Exercise"
+      placeholder="Search Exercise like '3d lunge warmup' "
       onChange={(e)=> handleChange(e.target.value)}
-      className="border-2 border-darkpink w-2/3 rounded-full p-2" />
+      className="border-2 border-darkpink w-full rounded-full p-2 text-center" />
     </div>
   );
 };
