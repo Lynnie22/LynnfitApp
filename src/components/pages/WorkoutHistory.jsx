@@ -38,7 +38,7 @@ groupedWorkouts[date].some((workout)=> workout.exercise.toLowerCase().includes(s
 
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4">Workout History</h2>
+      <h2 className="text-3xl md:text-5xl mt-8 text-center font-bold mb-4">Workout History</h2>
 
       <div className="mb-4">
         <input

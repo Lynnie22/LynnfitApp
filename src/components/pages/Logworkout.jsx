@@ -55,7 +55,7 @@ const Logging = () => {
         >
           {() => (
             <Form className="w-full space-y-6 flex flex-col items-center">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-5">Log Workout</h1>
+              <h1 className="text-2xl  md:text-4xl lg:text-6xl font-bold text-white mb-5">Log Workout</h1>
 
               {/* Input exercise field */}
               <div className="w-full">
@@ -130,7 +130,7 @@ const Logging = () => {
       </div>
 
       {/* Display logged workouts */}
-      <div className="glass w-full sm:w-3/4 md:w-1/2 lg:w-2/4 p-8 rounded-lg shadow-lg flex flex-col justify-center items-center mt-6">
+      <div className="glass w-full sm:w-3/4 md:w-1/2 lg:w-2/4 p-4 rounded-lg shadow-lg flex flex-col justify-center items-center mt-6">
         {workoutEntries.length === 0 ? (
           <p className="text-white">No workout logged yet</p>
         ) : (
@@ -138,26 +138,26 @@ const Logging = () => {
             {workoutEntries.map((workout, index) => (
               <li
                 key={index}
-                className="p-4 mb-4 bg-stone-500 text-white rounded-xl shadow-md flex flex-col sm:flex-row sm:justify-between sm:items-center"
+                className="p-2 mb-2 bg-stone-500 text-white rounded-xl shadow-md flex flex-col sm:flex-row sm:justify-between sm:items-center"
               >
                 <div className="flex items-center space-x-4">
-                  <FaDumbbell size={20} className="text-babypink" />
+                  <FaDumbbell size={20} className="text-darkpink" />
                   <span>{workout.exercise}</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <FaRedoAlt size={20} className="text-babypink" />
+                  <FaRedoAlt size={20} className="text-darkpink" />
                   <span>{workout.sets} Sets</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <FaWeightHanging size={20} className="text-babypink" />
+                  <FaWeightHanging size={20} className="text-darkpink" />
                   <span>{workout.reps} Reps</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <FaWeightHanging size={20} className="text-babypink" />
+                  <FaWeightHanging size={20} className="text-darkpink" />
                   <span>{workout.weight} kg</span>
                 </div>
                 <div className="flex items-center space-x-4">
-                  <FaCalendarAlt size={20} className="text-babypink" />
+                  <FaCalendarAlt size={20} className="text-darkpink" />
                   <span>{workout.timestamp}</span>
                 </div>
               </li>

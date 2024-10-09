@@ -3,7 +3,7 @@ import Navigation from "../common/Navigation"
 
 const Layout = () => {
   return (
-    <div>
+    <div className="w-full h-full p-5 ">
       <Navigation/>
       <Outlet/>
     </div>

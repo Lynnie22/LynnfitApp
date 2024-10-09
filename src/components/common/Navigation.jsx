@@ -3,7 +3,7 @@ import Navlinks from "./Navlinks"
 
 const Navigation = () => {
   return (
-    <div>
+    <div className="flex justify-between items-center">
         <Logo/>
         <Navlinks/>
     </div>
