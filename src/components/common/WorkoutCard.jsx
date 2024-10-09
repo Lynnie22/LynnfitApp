@@ -17,7 +17,7 @@ const WorkoutCard = ({workout}) => {
         <div className="flex justify-between items-center">
             <div>
                 <h3 className="text-xl font-semibold text-black">{workout.exercise}</h3>
-                <p className="text-sm text-gray-500">Logged on: {workout.timeestamp}</p>
+                <p className="text-sm text-gray-500">Logged on: {workout.timestamp}</p>
             </div>
 
             <button className="text-darkpink"
