@@ -2,7 +2,7 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import useWorkoutStore from "../../stores/workoutStore";
-import './LogWorkout.css';
+import './Logworkout.css';
 import {  FaDumbbell, FaRedoAlt, FaWeightHanging, FaCalendarAlt } from "react-icons/fa";
 
 // Validation schema using Yup
