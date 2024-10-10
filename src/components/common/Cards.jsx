@@ -16,7 +16,7 @@ const Cards = () => {
           src="/src/assets/images/pexels-shu-lei-2809836-13849063.jpg"
           alt="Workout Image"
           className="h-full w-full object-cover rounded-xl border-4 border-darkpink shadow-xl transition-all ease-in hover:drop-shadow-xl hover:-translate-y-3"/>
-            <Link to="logworkout" className="absolute bottom-4 left-4 font-bold text-white text-2xl">Workout History</Link>
+            <Link to="history" className="absolute bottom-4 left-4 font-bold text-white text-2xl">Workout History</Link>
       </div>
     </div>
   )
