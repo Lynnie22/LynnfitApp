@@ -2,7 +2,7 @@ import Button from "./Button"
 const Hero = ({heroTitle, heroText}) => {
   return (
     <div className="relative">
-      <img src="/assets/images/woman-training-weightlifting-gym.jpg"  alt="image of woman in gym"
+      <img src="/assets/images/heroimage.jpg"  alt="image of woman in gym"
       className="h-1/2 w-full object-cover rounded-xl"/>
        <div className="absolute inset-0 bg-gradient-to-r from-pink-800 via-transparent to-black opacity-40 rounded-xl"></div>
       <div className="absolute flex flex-col inset-0 justify-center items-center text-center">

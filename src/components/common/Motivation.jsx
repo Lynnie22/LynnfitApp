@@ -12,7 +12,7 @@ const Motivation = () => {
         </div>
   
         <div className="w-full lg:w-1/2">
-          <img src="/src/assets/images/motivation.png" alt="" className="h-auto w-full object-cover" />
+          <img src="/assets/images/motivation.png" alt="" className="h-auto w-full object-cover" />
         </div>
       </div>
     )
