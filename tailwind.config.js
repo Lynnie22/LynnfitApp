@@ -20,7 +20,7 @@ export default {
         '5xl': '3.052rem',
       },
       backgroundImage: {
-        'workout-bg': "url('/src/assets/images/woman-training-weightlifting-gym.jpg')",
+        'workout-bg': "url('/assets/images/heroimage.jpg')",
        
       },
 
